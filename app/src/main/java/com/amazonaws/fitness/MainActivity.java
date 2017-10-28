@@ -145,7 +145,6 @@ public class MainActivity extends AppCompatActivity {
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-                Toast.makeText(MainActivity.this, "SUCCESS", Toast.LENGTH_SHORT).show();
                 String token = AccessToken.getCurrentAccessToken().getToken();
 
                 startActivity(new Intent(MainActivity.this, BodyActivity.class));
@@ -480,8 +479,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 if(s.length() == 0) {
-                    TextView label = (TextView) findViewById(R.id.textViewUserIdLabel);
-                    label.setText(R.string.Username);
+                   // TextView label = (TextView) findViewById(R.id.textViewUserIdLabel);
+                   // label.setText(R.string.Username);
                     inUsername.setBackground(getDrawable(R.drawable.text_border_selector));
                 }
             }

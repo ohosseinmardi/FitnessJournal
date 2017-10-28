@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Oct 26 16:26:13 PDT 2017
+#Thu Oct 26 19:28:32 PDT 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/user/492b/Fitness/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_button_bar_material.xml
 14.set=ANDROID_RESOURCE

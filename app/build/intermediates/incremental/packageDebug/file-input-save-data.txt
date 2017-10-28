@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Oct 26 16:26:17 PDT 2017
+#Thu Oct 26 19:28:32 PDT 2017
 20.base=/Users/user/492b/Fitness/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
 143.base=/Users/user/492b/Fitness/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
 439.set=ANDROID_RESOURCE
